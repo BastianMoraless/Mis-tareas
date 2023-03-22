@@ -22,6 +22,7 @@ function TaskForm() {
           placeholder="Escribe tu tarea"
           onChange={(e) => setTitle(e.target.value)}
           value={title}
+          required
         />
         <textarea
           className="bg-slate-300 p-3 w-full mb-2"
