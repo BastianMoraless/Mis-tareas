@@ -29,7 +29,7 @@ function TaskForm() {
           onChange={(e) => setDescription(e.target.value)}
           value={description}
         />
-        <button className="bg-indigo-400">Guardar</button>
+        <button className="bg-indigo-600 font-bold p-1 text-white">Guardar</button>
       </form>
     </div>
   );
