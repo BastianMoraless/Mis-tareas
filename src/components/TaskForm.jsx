@@ -14,7 +14,7 @@ function TaskForm() {
   };
 
   return (
-    <div className="mx-auto max-w-md mb-2">
+    <div className="mx-auto max-w-md mb-5">
       <form onSubmit={handlesubmit} className='bg-slate-800 p-8' >
         <h1 className="text-white text-2xl mb-2 font-bold">Crea tu tarea</h1>
         <input
